@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int no;
+printf("Enter the no");
+scanf("%d",&no);
+switch(no
