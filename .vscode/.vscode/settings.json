@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "ALPHABAT.C": "cpp",
-        "FACTOR.C": "cpp"
+        "FACTOR.C": "cpp",
+        "ASCII.C": "cpp",
+        "FACTORIA.C": "cpp"
     }
 }
