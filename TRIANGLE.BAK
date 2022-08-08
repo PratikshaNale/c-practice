@@ -1,0 +1,14 @@
+//WAP to input two side of triangle and find the third side of triangle.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+clrscr();
+printf("Enter the two angle of triangle\n");
+scanf("%d%d",&a,&b);
+c=180-(a+b);
+printf("third angle of triangle is %d",c);
+getch();
+}
+

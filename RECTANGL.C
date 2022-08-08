@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
-int length,width,area;
+int l,w,area;
 clrscr();
-printf("\n Enter width and length in rectangle \n");
-scanf("%d%d",&length,&width);
-area=length*width;
-printf("\n Area is %d \n", area);
+printf("Enter the length and width\n");
+scanf("%d%d",&l,&w);
+area=l*w;
+printf("Area of rectangle is%d",area);
 getch();
 }

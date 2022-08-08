@@ -1,0 +1,13 @@
+//WAP to enter principal amount time and rate calculate simple intrest.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int time,rate,si,p;
+clrscr();
+printf("Enter the simple time and rate\n");
+scanf("%d%d",&time,&rate);
+si= time*rate*p/100;
+printf("simple intrest is %d\n",si);
+getch();
+}

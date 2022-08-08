@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,no;
+clrscr();
+printf("Enter number\n");
+scanf("%d",&no);
+i=1;
+while(i<=no)
+{
+printf("%d\n",i);
+i++;
+}
+getch();
+}
+

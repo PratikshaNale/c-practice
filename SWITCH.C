@@ -2,33 +2,31 @@
 #include<conio.h>
 void main()
 {
-int i,no,choice;
+int a,b,c,choice;
 clrscr();
-printf("1 : Given number is prime or not\n");
-printf("2 : reverse given \n");
-printf("3:number is even or odd\n");
-printf("number is armstrong or not \n");
-printf("Enter your choice \n");
-scanf("%d",choice);
-printf("Enter a no \n");
-scanf("%d", no);
+printf("1.addition\n");
+printf("2.subtraction\n");
+printf("3.multiplication\n");
+printf("Enter your choice\n");
+scanf("%d",&choice);
+printf("Enter the two value\n");
+scanf("%d%d",&a,&b);
 switch(choice)
 {
 case 1:
-printf("Given no is prime or not \n");
+printf("addition is %d\n",a+b);
 break;
-case 2 :
-printf("revrse given \n");
+case 2:
+printf("subtraction is%d\n",a-b);
 break;
-case 3 :
-if(no%2)
-printf("number is even or odd \n");
+case 3:
+printf("multiplication is %d\n",a*b);
 break;
-case 4 :
-printf("number is armstrong or not\n");
-break;
-default :
-printf("invalid number \n");
+default:
+printf("wrong choice\n");
 }
+
 getch();
 }
+
+

@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int rev,no;
+clrscr();
+printf("Enter the number\n");
+scanf("%d",&no);
+rev=(no%10)*100+((no/10)%10)*10+no/100;
+no==rev?printf("number is palimdrome\n"):printf("number is not palimdrome\n");
+getch();
+}

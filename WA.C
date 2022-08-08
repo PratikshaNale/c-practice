@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int cweight;
+clrscr();
+printf("Enter the cloth weight\n");
+scanf("%d",&cweight);
+if(cweight>0&&cweight<=2000)
+{
+printf("low water level need 25 minute\n");
+}
+else if(cweight>2000&&cweight<=4000)
+{
+printf("medium water level need 35 minute\n");
+}
+else if(cweight>4000&&cweight<= 7000)
+{
+printf("high water level nee 45 minute\n");
+}
+else if(cweight>7000)
+{
+printf("machine is overload\n");
+}
+getch();
+}

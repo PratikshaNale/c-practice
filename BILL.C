@@ -1,29 +1,29 @@
-//write a program input the rate and quantity from keyboard and calculate bill using a following terms
-// casse 1  bill without gst
-// case 2   bill with gst of 18 %
+//WAP input the quantity and rate of product and calculate its total bill and if bill amount is
+//greter than 1000 rs.then apply gst per on bill and if bill amount is less
+//than 1000 then apply gst 20% on bill.
 
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-int qty,rate,gst,total,choice;
+int qty,rate,total;
 clrscr();
-printf("Enter the rate and quantity \n");
-scanf("%d%d",&rate,&qty);
-printf("Enter your choice \n");
-scanf("%d",&choice);
-switch(choice)
+printf("Enter the quantity and rate\n");
+scanf("%d%d",&qty,&rate);
+total=qty*rate;
+if(total>=1000)
 {
-case 1 :
-printf("Bill without gst %d \n",gst*rate);
-break;
-case 2 :
- gst = (qty*rate)*18/100;
- total =(qty*rate)+gst;
-printf("bill with gst %d \n",total);
-break;
-default :
-printf("wrong choice");
+int gstamount = (total*18)/1000;
+int billwithgst =total+gstamount;
+printf("bill with 18 %gst %d\n",billwithgst);
 }
-getch();
+else if(total<1000)
+{
+int gst =(total*20)/100;
+int bwg = total+gst;
+printf("Bill with 20 % gst %d\n",bwg);
 }
+}
+
+
+

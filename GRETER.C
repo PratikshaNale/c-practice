@@ -2,16 +2,19 @@
 #include<conio.h>
 void main()
 {
-int a,b;
+int a,b,c;
 clrscr();
-printf("Enter the two values\n");
-scanf("%d%d",&a,&b);
-if(a>b)
+if(a>b&&a>c)
 {
-printf("a is greter\n");
+printf("A is a greter%d\n");
 }
-if(b>a){
-printf("b is greter \n");
+else if(b>a&&b>c)
+{
+printf("B is a greater\n");
+}
+else
+{
+printf("c is a greter\n");
 }
 getch();
 }

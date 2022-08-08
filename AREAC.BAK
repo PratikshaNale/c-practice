@@ -1,0 +1,14 @@
+//WAP to input the circle and calculate its area.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float area,r,pi=3.14;
+clrscr();
+printf("Enter the radius of circle\n");
+scanf("%f",&r);
+area=r*r*pi;
+printf("area of circle %f\n",area);
+getch();
+}

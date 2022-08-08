@@ -1,0 +1,10 @@
+//WACP to input the rate and quantity from keyboard and calculate bill
+//using a following terms.
+//case 1:bill with gst
+//case 2:bill with gst of 18%
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int choice,qty,rate;
+clrscr();

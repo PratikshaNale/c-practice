@@ -1,0 +1,14 @@
+//WAP to accept a length and width find the user and find out area of rectangle.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int width,length,area;
+clrscr();
+printf("Enter the area and width\n");
+scanf("%d%d",&width,&length);
+area=length*width;
+printf("Area of rectangle is %d",area);
+getch();
+}

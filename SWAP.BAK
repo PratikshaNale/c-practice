@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a,b;
+printf("Enter the two values\n");
+scanf("%d%d",&a,&b);
+printf("before swapping/n");
+printf("/t%d=%d/n",a,b);
+a=a*b;
+b=b/a;
+a=a/b;
+printf("after the swapping\n");
+printf("\t A=%d/t B=%d/n",a,b);
+getch();
+}

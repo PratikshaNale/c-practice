@@ -2,27 +2,24 @@
 #include<conio.h>
 void main()
 {
+int no,i ;
 clrscr();
-int i,no,flag;
 printf("Enter the number\n");
 scanf("%d",&no);
-i=2,flag=1;
+i=2;
 while(i<no)
 {
 if(no%i==0)
 {
-flag=1;
-break;
+printf("%d\n",i);
+no=no/i;
 }
 i++;
 }
-if(flag==0)
-printf("Given no is prime\n");
-else
-{
-printf("Given no is not prime no\n");
-}
 getch();
 }
+
+
+
 
 

@@ -1,0 +1,6 @@
+//WACP find frequency of each digit in a number.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int no,count,i,j,f=0;

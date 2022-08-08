@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int cm,km;
+clrscr();
+printf("Enter the length in centimeter\n");
+scanf("%d",cm);
+km=cm/100000;
+printf("convert the meter and kilometer%d",km);
+getch();
+}

@@ -1,12 +1,14 @@
+//WAP to input the three digit number and check number is palimdrome or not.
+
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-int no,rev;
+int rev,no;
 clrscr();
-printf("Enter the three digit no");
+printf("Enter the number\n");
 scanf("%d",&no);
 rev=(no%10)*100+((no/10)%10)*10+no/100;
-no==rev?printf("palimdrome"):printf("not palimdrome");
+no==rev?printf("number is palimdrome\n"):printf("number is not palimdrome\n");
 getch();
 }

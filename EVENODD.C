@@ -2,11 +2,17 @@
 #include<conio.h>
 void main()
 {
-int rem,no;
+int no;
 clrscr();
-printf("\n Enter the no \n");
+printf("Enter the number\n");
 scanf("%d",&no);
-rem=no%2;
-rem==0?printf("\n even \n"):printf("\n odd \n");
+if(no%2==0)
+{
+printf("number is even\n");
+}
+else
+{
+printf("number is odd\n");
+}
 getch();
 }

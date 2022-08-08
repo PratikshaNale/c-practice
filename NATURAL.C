@@ -1,22 +1,18 @@
+
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-int i,n,tab;
+int i,no,sum=0;
 clrscr();
-printf("Enter the no\n");
-scanf("%d",&n);
-i=0,n=1;
+printf("Enter the number\n");
+scanf("%d",&no);
+i=1;
 while(i<=10)
 {
-tab =n+i;
-printf("natural no is %d\n",n);
-i--;
+sum=sum+i;
+printf("sum of natural number is %d\n",sum);
 }
+i++;
 getch();
 }
-
-
-
-
-

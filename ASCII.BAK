@@ -2,12 +2,9 @@
 #include<conio.h>
 void main()
 {
-int i;
-clrscr();
-printf("print the Alphabate with ASCII value\n");
-for(i=65;i<=255;i++)
-{
-printf("\t%d= %c",i,i);
-}
+char ch;
+printf("Enter the characte\n");
+scanf("%d"&ch);
+printf("Asci value of the character is %d",ch,ch);
 getch();
 }
